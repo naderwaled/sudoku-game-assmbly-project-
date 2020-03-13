@@ -1,0 +1,23 @@
+﻿Build started 28/12/2019 02:33:43 AM.
+     1>Project "E:\third\Assembly\project\nader\Project_Template\Project.vcxproj" on node 2 (Rebuild target(s)).
+     1>_MASM:
+         Assembling main.asm...
+         cmd.exe /C "C:\Users\Eltabey\AppData\Local\Temp\tmp65f5ac816bf34f5eac5d8b39e07a7874.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /I "E:\Teaching\Assembly 07\IrvineExamples" /W3 /errorReport:prompt  /Tamain.asm
+     1>main.asm(385): warning A6004: procedure argument or local not referenced : Array
+     1>main.asm(385): warning A6004: procedure argument or local not referenced : fName
+     1>main.asm(392): warning A6004: procedure argument or local not referenced : Time
+     1>main.asm(392): warning A6004: procedure argument or local not referenced : pName
+     1>main.asm(392): warning A6004: procedure argument or local not referenced : Wronganswers
+     1>main.asm(491): warning A6004: procedure argument or local not referenced : hInstance
+     1>main.asm(491): warning A6004: procedure argument or local not referenced : fdwReason
+     1>main.asm(491): warning A6004: procedure argument or local not referenced : lpReserved
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\third\Assembly\project\nader\Project_Template\Debug\Project.dll" /NOLOGO /LIBPATH:"E:\Teaching\Assembly 07\IrvineExamples" user32.lib irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\third\Assembly\project\nader\Project_Template\main.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\third\Assembly\project\nader\Project_Template\Debug\Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\third\Assembly\project\nader\Project_Template\Debug\Project.lib" /MACHINE:X86 /SAFESEH:NO /DLL Debug\main.obj
+            Creating library E:\third\Assembly\project\nader\Project_Template\Debug\Project.lib and object E:\third\Assembly\project\nader\Project_Template\Debug\Project.exp
+         Project.vcxproj -> E:\third\Assembly\project\nader\Project_Template\Debug\Project.dll
+     1>Done Building Project "E:\third\Assembly\project\nader\Project_Template\Project.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74

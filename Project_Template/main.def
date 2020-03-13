@@ -1,0 +1,17 @@
+EXPORTS		
+Open_ReadArray @1
+WriteTo_File @2
+Edit_cmp @3
+unsolvedNum @4
+Difficulty @5
+Return_last_game @6
+clear_board @7
+print_solved_board @8
+Save_to_file @9
+Save_Rank @10
+newgame @11
+Continue @12
+get_Board @13
+return_wrong @14
+return_correct @15
+helper @16
